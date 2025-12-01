@@ -1,0 +1,109 @@
+# .gitignore for Windows and common development tools
+
+# Windows thumbnail/cache files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+*.lnk
+
+# Visual Studio and build outputs
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vcxproj.user
+*.pdb
+ipch/
+*.aps
+*.ncb
+[Bb]in/
+[Oo]bj/
+*.log
+*.tlog
+*.lastcodeanalysissucceeded
+
+# Visual Studio Code
+.vscode/
+.history/
+
+# JetBrains IDEs
+.idea/
+*.iml
+out/
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnp.*
+.pnp.js
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+env/
+venv/
+.venv/
+pip-log.txt
+pip-delete-this-directory.txt
+dist/
+build/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.coverage
+.cache
+.pytest_cache/
+
+# Logs and databases
+*.log
+*.sql
+*.sqlite
+
+# macOS
+.DS_Store
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+
+# Environment files
+.env
+.env.*.local
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Binaries
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Archives
+*.zip
+*.tar.gz
+*.rar
+
+# Backup and temp files
+*~
+*.bak
+*.swp
+*.swo
+
+# Installer packages
+*.msi
+*.msm
+*.msp
+
+# Ignore IDE-specific workspace files
+*.sublime-workspace
+*.sublime-project
+
+# End of .gitignore
